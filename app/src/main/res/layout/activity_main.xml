@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="MainActivity">
+    tools:context="com.jnnapoli.accountabilibuddies.MainActivity">
     <android.support.v7.widget.RecyclerView
         android:id="@+id/task_list"
         android:layout_width="match_parent"
@@ -26,6 +26,7 @@
         android:orientation="horizontal">
         <EditText
             android:id="@+id/add_task_box"
+            android:labelFor="@+id/add_task_box"
             android:layout_width="0dp"
             android:inputType="text"
             android:layout_height="match_parent"
